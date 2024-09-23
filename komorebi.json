@@ -1,0 +1,211 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.28/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.yaml",
+  "minimum_window_width": 0,
+  "minimum_window_height": 0,
+  "resize_delta": 50,
+  "window_container_behaviour": "Create",
+  "cross_monitor_move_behaviour": "Insert",
+  "unmanaged_window_operation_behaviour": "Op",
+  "mouse_follows_focus": false,
+  "border_width": 8,
+  "border_offset": -1,
+  "border": true,
+  "border_colours": {
+    "single": {
+      "r": 137,
+      "g": 180,
+      "b": 250
+    },
+    "stack": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "monocle": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "unfocused": {
+      "r": 30,
+      "g": 30,
+      "b": 46
+    }
+  },
+  "border_style": "System",
+  "border_z_order": "Bottom",
+  "border_implementation": "Windows",
+  "transparency": false,
+  "transparency_alpha": 235,
+  "default_workspace_padding": 20,
+  "default_container_padding": 20,
+  "animation": {
+    "enabled": true,
+    "duration": 100,
+    "fps": 144,
+    "style": "Linear"
+  },
+  "float_rules": [
+		{
+			"kind": "Exe",
+			"id": "yasb.exe",
+			"matching_strategy": "Equals"
+		},
+		{
+			"kind": "Exe",
+			"id": "osu!.exe",
+			"matching_strategy": "Equals"
+		},
+    {
+      "kind": "Title",
+      "id": "osu!",
+      "matching_strategy": "Equals"
+    },
+		{
+			"kind": "Title",
+			"id": "Rakuten Viber",
+			"matching_strategy": "Equals"
+		},
+		{
+			"kind": "Title",
+			"id": "Skype",
+			"matching_strategy": "Equals"
+		},
+		{
+			"kind": "Exe",
+			"id": "Riot Client.exe",
+			"matching_strategy": "Equals"
+		},
+    {
+			"kind": "Exe",
+			"id": "project8.exe",
+			"matching_strategy": "Equals"
+		},
+    {
+			"kind": "Title",
+			"id": "VALORANT",
+			"matching_strategy": "Equals"
+		},
+		{
+			"kind": "Title",
+			"id": "Settings",
+			"matching_strategy": "Equals"
+		},
+		{
+			"kind": "Title",
+			"id": "Microsoft Store",
+			"matching_strategy": "Equals"
+		},
+		{
+			"kind": "Exe",
+			"id": "Photoshop.exe",
+			"matching_strategy": "Equals"
+		},
+		{
+			"kind": "Exe",
+			"id": "Adobe Premiere Pro.exe",
+			"matching_strategy": "Equals"
+		},
+		{
+			"kind": "Exe",
+			"id": "Illustrator.exe",
+			"matching_strategy": "Equals"
+		},
+		{
+			"kind": "Exe",
+			"id": "OUTLOOK.EXE",
+			"matching_strategy": "Equals"
+		},
+		{
+			"kind": "Exe",
+			"id": "ApplicationFrameHost.exe",
+			"matching_strategy": "Equals"
+		},
+		{
+			"kind": "Exe",
+			"id": "vmware.exe",
+			"matching_strategy": "Equals"
+		},
+    {
+      "kind": "Exe",
+      "id": "LeagueClient.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "League of Legends.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Deceive.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+			"kind": "Exe",
+			"id": "BloonsTD6.exe",
+			"matching_strategy": "Equals"
+		}
+	],
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "I",
+          "layout": "BSP",
+          "layout_rules": {},
+          "apply_window_based_work_area_offset": true
+        },
+        {
+          "name": "II",
+        },
+        {
+          "name": "III",
+          "layout": "HorizontalStack",
+          "layout_rules": {},
+          "apply_window_based_work_area_offset": true
+        },
+        {
+          "name": "IV",
+          "layout": "UltrawideVerticalStack",
+          "layout_rules": {},
+          "apply_window_based_work_area_offset": true
+        },
+        {
+          "name": "V",
+          "layout": "Rows",
+          "layout_rules": {},
+          "apply_window_based_work_area_offset": true
+        },
+        {
+          "name": "VI",
+          "layout": "Grid",
+          "layout_rules": {},
+          "apply_window_based_work_area_offset": true
+        },
+        {
+          "name": "VII",
+          "layout": "RightMainVerticalStack",
+          "layout_rules": {},
+          "apply_window_based_work_area_offset": true
+        }
+      ],
+      "window_based_work_area_offset_limit": 1
+    },
+    {
+      "workspaces": [
+        {
+          "name": "unnamed",
+          "layout": "BSP",
+          "layout_rules": {},
+          "apply_window_based_work_area_offset": true
+        }
+      ],
+      "window_based_work_area_offset_limit": 1
+    }
+  ],
+  "window_hiding_behaviour": "Cloak",
+  "monitor_index_preferences": {},
+  "display_index_preferences": {}
+}
