@@ -6,7 +6,7 @@
 
 <h2 align="center">
   <img src="https://raw.githubusercontent.com/shaneosu/dotfiles/refs/heads/main/assets/screenshots/workspace.png" width="100%" alt"Workspace"/<br/>
-  <img src="https://raw.githubusercontent.com/shaneosu/dotfiles/refs/heads/main/assets/screenshots/desktop.png" width="100%" alt"Desktop"/<br/>
+  <img src="https://raw.githubusercontent.com/shaneosu/dotfiles/refs/heads/main/assets/screenshots/desktop2.png" width="100%" alt"Desktop"/<br/>
 </h2>
 
 # Programs
