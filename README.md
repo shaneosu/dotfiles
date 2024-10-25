@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/shaneosu/dotfiles/refs/heads/main/assets/icon/kessokucatppuccin.png" width="200" alt="Logo"/><br/>
   </h3>
-<h1 align="center">kessou band x Catppuccin</h1>
+<h1 align="center">kessoku band x Catppuccin</h1>
 <p align="center">My first windows rice, and my current windows desktop</p>
 
 <h2 align="center">
